@@ -11,7 +11,7 @@
         "notification"
     ],
     "topRow": 0,
-    "bottomRow": 320,
+    "bottomRow": 750,
     "parentRowSpace": 1,
     "type": "MODAL_WIDGET",
     "hideCard": false,
@@ -27,13 +27,13 @@
         "widgetName": "Canvas3",
         "displayName": "Canvas",
         "topRow": 0,
-        "bottomRow": 320,
+        "bottomRow": 750,
         "parentRowSpace": 1,
         "type": "CANVAS_WIDGET",
         "canExtend": true,
         "hideCard": true,
         "shouldScrollContents": false,
-        "minHeight": 0,
+        "minHeight": 360,
         "mobileRightColumn": 0,
         "parentColumnSpace": 1,
         "leftColumn": 0,
@@ -63,7 +63,7 @@
         "flexLayers": []
     }],
     "key": "lx1olaer7s",
-    "height": 320,
+    "height": 750,
     "isDeprecated": false,
     "rightColumn": 0,
     "detachFromLayout": true,
@@ -80,6 +80,6 @@
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 0,
     "maxDynamicHeight": 9000,
-    "width": 456,
+    "width": 978,
     "minDynamicHeight": 24
 }

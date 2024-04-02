@@ -94,8 +94,9 @@
         "storageUrl"
     ],
     "dynamicPropertyPathList": [],
+    "compactMode": "DEFAULT",
     "displayName": "Table",
-    "bottomRow": 80,
+    "bottomRow": 81,
     "columnWidthMap": {"name": 350},
     "parentRowSpace": 10,
     "hideCard": false,
@@ -503,7 +504,7 @@
             "verticalAlignment": "CENTER"
         },
         "selectedSupplier": {
-            "computedValue": "{{All_requests.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"selectedSupplier\"].name))}}",
+            "computedValue": "{{All_requests.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"selectedSupplier\"]?.name))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "selectedSupplier",

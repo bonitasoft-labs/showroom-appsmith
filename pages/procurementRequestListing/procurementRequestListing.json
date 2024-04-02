@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 930,
+          "bottomRow": 940,
           "containerStyle": "none",
           "snapRows": 124,
           "parentRowSpace": 1,
@@ -29,6 +29,16 @@
         "layoutOnLoadActions": [
           [
             {
+              "id": "procurementRequestListing_getSession",
+              "name": "getSession",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
               "id": "procurementRequestListing_findAllRequests",
               "name": "findAllRequests",
               "confirmBeforeExecute": false,
@@ -36,6 +46,17 @@
               "jsonPathKeys": [
                 "All_requests.pageSize",
                 "All_requests.pageNo-1"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "procurementRequestListing_getTasksFromRequest",
+              "name": "getTasksFromRequest",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                " getSession.data.user_id ",
+                "All_requests.selectedRow.caseId"
               ],
               "timeoutInMillisecond": 10000
             }

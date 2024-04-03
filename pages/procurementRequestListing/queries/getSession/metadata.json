@@ -42,7 +42,7 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [],
-    "userSetOnLoad": false,
+    "userSetOnLoad": true,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],

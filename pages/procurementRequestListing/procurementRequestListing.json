@@ -50,13 +50,12 @@
               "timeoutInMillisecond": 10000
             },
             {
-              "id": "procurementRequestListing_getTasksFromRequest",
-              "name": "getTasksFromRequest",
+              "id": "procurementRequestListing_getProcurementProcesses",
+              "name": "getProcurementProcesses",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
-                " getSession.data.user_id ",
-                "All_requests.selectedRow.caseId"
+                " getSession.data.user_id "
               ],
               "timeoutInMillisecond": 10000
             }

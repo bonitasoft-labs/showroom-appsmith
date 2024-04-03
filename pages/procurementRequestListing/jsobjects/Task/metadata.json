@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "Task",
+    "pageId": "procurementRequestListing",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "procurementRequestListing_Task",
+  "deleted": false,
+  "gitSyncId": "660c242ae09b4e786ec45664_660d7799c35853403e1a5cd4"
+}

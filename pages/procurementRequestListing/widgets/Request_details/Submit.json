@@ -28,8 +28,8 @@
         {"key": "isDisabled"},
         {"key": "text"}
     ],
-    "text": "{{ getTasksFromRequest?.data[0]?.displayName }}",
-    "isDisabled": "{{ getTasksFromRequest?.data?.length == 0 }}",
+    "text": "{{ getTasksFromRequest.responseMeta.isExecutionSuccess ? getTasksFromRequest.data[0]?.displayName : '' }}",
+    "isDisabled": "{{ !getTasksFromRequest.responseMeta.isExecutionSuccess || getTasksFromRequest.data.length == 0 }}",
     "key": "d1fdxpowmx",
     "isDeprecated": false,
     "rightColumn": 51,

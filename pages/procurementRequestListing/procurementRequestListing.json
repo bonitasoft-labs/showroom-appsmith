@@ -71,6 +71,17 @@
                 "All_requests.pageNo-1"
               ],
               "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "procurementRequestListing_getTasksFromRequest",
+              "name": "getTasksFromRequest",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                " getSession.data.user_id ",
+                " All_requests.selectedRow.caseId "
+              ],
+              "timeoutInMillisecond": 10000
             }
           ]
         ],
